@@ -1,0 +1,25 @@
+{
+  "name": "fcommerce-backend",
+  "version": "1.0.0",
+  "description": "F-Commerce SaaS Backend API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "migrate": "node scripts/migrate.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "pg": "^8.12.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "axios": "^1.7.2",
+    "cookie-parser": "^1.4.6",
+    "express-rate-limit": "^7.3.1",
+    "helmet": "^7.1.0",
+    "@anthropic-ai/sdk": "^0.24.3"
+  }
+}
